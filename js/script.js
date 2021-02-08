@@ -24,7 +24,6 @@ let isNumber = function(n) {
  };
 
 let gameStart = function() {
-    // alert('Загадывание случайного числа от 1 до 100');
   // Генерация случайног числа
     let correctDigit = Math.floor(Math.random() * 101);
     console.log(correctDigit);
